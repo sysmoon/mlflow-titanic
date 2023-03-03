@@ -23,7 +23,7 @@ def _str2bool(v):
         raise argparse.ArgumentTypeError('Boolean value expected.')
 
 def start(is_keras, n_estimator):
-    mlflow.set_experiment('soojin')
+    mlflow.set_experiment('titanic')
     
     titanic = TitanicMain()
 
